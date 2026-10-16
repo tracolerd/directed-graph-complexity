@@ -1,4 +1,6 @@
-# 📊 Directed Graph Degree Verification & Time Complexity Analysis
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:061D16,50:16734B,100:0B1220&height=190&section=header&text=Directed%20Graph%20Complexity&fontSize=42&fontColor=F1F5F9&fontAlignY=38&animation=fadeIn&desc=Empirical%20runtime%20analysis%20and%20degree%20verification%20for%20directed%20graphs&descAlignY=61&descSize=15" alt="Directed Graph Complexity animated project banner" width="100%" />
+</p>
 
 <div align="center">
 
@@ -80,3 +82,12 @@ This project is open-source and available under the terms of the MIT License.
 1. Save your code into a file path called `src/main.c`.
 2. Run the code, copy the numbers into Excel, create the chart as detailed in the README, take a screenshot of it, save it as `trendline_chart.png`, and place it in a folder called `docs`.
 3. Push everything to your GitHub repository. The repository will immediately look clean, authoritative, and scientifically rigorous.
+
+---
+
+## Author & Development
+
+**Project author and solo developer:** [Nurul Faiyaz](https://github.com/tracolerd).
+
+This project is independently developed and maintained by Nurul Faiyaz. AI-assisted tools may be used as part of the development workflow; the project author remains responsible for technical decisions, code review, validation, and maintenance.
+

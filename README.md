@@ -1,6 +1,8 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:061D16,50:16734B,100:0B1220&height=190&section=header&text=Directed%20Graph%20Complexity&fontSize=42&fontColor=F1F5F9&fontAlignY=38&animation=fadeIn&desc=Empirical%20runtime%20analysis%20and%20degree%20verification%20for%20directed%20graphs&descAlignY=61&descSize=15" alt="Directed Graph Complexity animated project banner" width="100%" />
 </p>
+<h1 align="center">Directed Graph Complexity</h1>
+
 
 <div align="center">
 

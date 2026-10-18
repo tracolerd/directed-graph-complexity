@@ -1,21 +1,27 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:061D16,50:16734B,100:0B1220&height=190&section=header&text=Directed%20Graph%20Complexity&fontSize=42&fontColor=F1F5F9&fontAlignY=38&animation=fadeIn&desc=Empirical%20runtime%20analysis%20and%20degree%20verification%20for%20directed%20graphs&descAlignY=61&descSize=15" alt="Directed Graph Complexity animated project banner" width="100%" />
+  <img src="assets/readme-hero.svg" alt="Directed Graph Complexity — custom animated project banner" width="100%" />
 </p>
+
 <h1 align="center">Directed Graph Complexity</h1>
 
+<p align="center">
+  <strong>Measure the cost behind directed-graph degree computation.</strong><br/>
+  A C-based experiment generating adjacency-matrix graphs, calculating in/out-degrees, verifying the directed handshaking lemma and examining empirical runtime.
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="https://en.cppreference.com/w/c"><img src="https://img.shields.io/badge/C-Implementation-00599C?style=for-the-badge&amp;logo=c&amp;logoColor=white" alt="C — Implementation" /></a>
+  <a href="https://en.wikipedia.org/wiki/Directed_graph"><img src="https://img.shields.io/badge/Graph_theory-Algorithms-15803D?style=for-the-badge&amp;logo=thealgorithms&amp;logoColor=white" alt="Graph theory — Algorithms" /></a>
+  <a href="https://www.microsoft.com/microsoft-365/excel"><img src="https://img.shields.io/badge/Excel-Timing_analysis-217346?style=for-the-badge&amp;logo=microsoftexcel&amp;logoColor=white" alt="Excel — Timing analysis" /></a>
+</p>
 
-![C Version](https://img.shields.io/badge/Language-C99%20%2F%20C11-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Excel](https://img.shields.io/badge/Analysis-MS%20Excel-107C41?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
-
-**An empirical and theoretical investigation into the computational complexity of computing vertex degrees in dense directed graphs.**
-
-</div>
+<p align="center">
+  <a href="#project-details">Overview</a> · <a href="#project-architecture">How it works</a> · <a href="#creator-developer-maintainer">Creator</a>
+</p>
 
 ---
 
+<a id="project-details"></a>
 ## 📖 Project Overview
 
 This project implements an automated analysis pipeline in C to generate random directed graphs represented via adjacency matrices and evaluate the execution overhead of computing vertex degrees. The system verifies a fundamental law of graph theory: **the Handshaking Lemma for directed graphs**, which states that the sum of all in-degrees across all vertices perfectly equals the sum of all out-degrees.
@@ -28,6 +34,7 @@ The core objectives achieved are:
 
 ---
 
+<a id="project-architecture"></a>
 ## 🛠️ Technical Implementation & Code Analysis
 
 The source code is located inside `src/main.c`. It runs an iterative loop over five different input parameters ($n$).
@@ -88,20 +95,20 @@ This project is open-source and available under the terms of the MIT License.
 ---
 ---
 
+---
+
 ## Creator, Developer & Maintainer
 
-**Created, designed, developed, and maintained by [Nurul Faiyaz](https://github.com/tracolerd).**
-
-This project is independently built and maintained by Nurul Faiyaz. The project's design, implementation, and documentation are his work.
+**Created, designed, developed, documented, and maintained independently by [Nurul Faiyaz](https://github.com/tracolerd).**
 
 <p align="center">
-  <a href="https://www.facebook.com/faiyaz.888"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
-  <a href="https://www.instagram.com/tracolerd"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://www.linkedin.com/in/faiyaz-xyz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/faiyaz_explores"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://github.com/tracolerd"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:scrollfaiyaz@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://nurul-faiyaz.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal website" /></a>
+  <a href="https://www.facebook.com/faiyaz.888"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook" /></a>
+  <a href="https://www.instagram.com/tracolerd"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.linkedin.com/in/faiyaz-xyz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/faiyaz_explores"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="X" /></a>
+  <a href="https://github.com/tracolerd"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:scrollfaiyaz@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+  <a href="https://nurul-faiyaz.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0F766E?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Website" /></a>
 </p>
 
 <p align="center">
@@ -113,3 +120,7 @@ This project is independently built and maintained by Nurul Faiyaz. The project'
   <a href="mailto:scrollfaiyaz@gmail.com">Email</a> ·
   <a href="https://nurul-faiyaz.netlify.app/">Website</a>
 </p>
+
+## License
+
+See [LICENSE](LICENSE) for the license terms.

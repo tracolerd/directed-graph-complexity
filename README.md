@@ -124,3 +124,7 @@ This project is open-source and available under the terms of the MIT License.
 ## License
 
 See [LICENSE](LICENSE) for the license terms.
+
+---
+
+<p align="center"><sub>Portfolio catalog · Project 19 of 22 · <a href="https://github.com/tracolerd">Nurul Faiyaz</a></sub></p>
